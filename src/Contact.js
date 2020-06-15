@@ -1,11 +1,13 @@
 import React from 'react';
 import { IconContext } from 'react-icons';
 import { MdLocalPhone, MdEmail, MdLocationOn } from 'react-icons/md';
-const Contact = () => {
-
+const Contact = ({ underline }) => {
     return (
         <section id='contact' className='container'>
-            <h2>Contact Us</h2>
+            <div className='title-wrapper container'>
+                <h2>Contact Us</h2>
+                {underline}
+            </div>
             <p>Please feel free to reach out if we can be of any help to you.</p>
             <ul className='container'>
                 <li>

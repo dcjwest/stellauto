@@ -7,7 +7,7 @@ const Home = () => {
             <img src={landingImg} alt='Car-shaped stethoscope.' />
             <div className='call-to-action'>
                 <h2>Need emergency car service?<br />We're here to help.</h2>
-                <button>Enquire now</button>
+                <a className='btn' href='#contact'>Enquire now</a>
             </div>
         </section>
     );

@@ -6,16 +6,21 @@
 
 :root {
   --main-color: #fd0000;
+  --accent-color: #7E0000;
 }
 
 html, body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   overflow-x: hidden;
   scroll-behavior: smooth;
   width: 100%;
 }
 
+h1, h2, a { font-family: 'Raleway', sans-serif; }
+
 a, a:visited {
+  color: inherit;
   cursor: pointer;
   text-decoration: none;
 }
