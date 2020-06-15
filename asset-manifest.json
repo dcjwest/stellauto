@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/stellauto/static/css/main.0fc285c5.chunk.css",
-    "main.js": "/stellauto/static/js/main.1163d6e1.chunk.js",
-    "main.js.map": "/stellauto/static/js/main.1163d6e1.chunk.js.map",
+    "main.css": "/stellauto/static/css/main.08821d94.chunk.css",
+    "main.js": "/stellauto/static/js/main.ff2d94f2.chunk.js",
+    "main.js.map": "/stellauto/static/js/main.ff2d94f2.chunk.js.map",
     "runtime-main.js": "/stellauto/static/js/runtime-main.b3038422.js",
     "runtime-main.js.map": "/stellauto/static/js/runtime-main.b3038422.js.map",
-    "static/js/2.e77b2570.chunk.js": "/stellauto/static/js/2.e77b2570.chunk.js",
-    "static/js/2.e77b2570.chunk.js.map": "/stellauto/static/js/2.e77b2570.chunk.js.map",
+    "static/js/2.63697ad7.chunk.js": "/stellauto/static/js/2.63697ad7.chunk.js",
+    "static/js/2.63697ad7.chunk.js.map": "/stellauto/static/js/2.63697ad7.chunk.js.map",
     "index.html": "/stellauto/index.html",
-    "precache-manifest.6d9eae7e9e3435e4b606379cc8c25056.js": "/stellauto/precache-manifest.6d9eae7e9e3435e4b606379cc8c25056.js",
+    "precache-manifest.51b3b49d86d0049858ce8edbc28b6329.js": "/stellauto/precache-manifest.51b3b49d86d0049858ce8edbc28b6329.js",
     "service-worker.js": "/stellauto/service-worker.js",
-    "static/css/main.0fc285c5.chunk.css.map": "/stellauto/static/css/main.0fc285c5.chunk.css.map",
-    "static/js/2.e77b2570.chunk.js.LICENSE.txt": "/stellauto/static/js/2.e77b2570.chunk.js.LICENSE.txt",
+    "static/css/main.08821d94.chunk.css.map": "/stellauto/static/css/main.08821d94.chunk.css.map",
+    "static/js/2.63697ad7.chunk.js.LICENSE.txt": "/stellauto/static/js/2.63697ad7.chunk.js.LICENSE.txt",
     "static/media/car-doc.jpg": "/stellauto/static/media/car-doc.b640a2cd.jpg",
     "static/media/logo.svg": "/stellauto/static/media/logo.fa021cd5.svg",
     "static/media/scope-car.jpg": "/stellauto/static/media/scope-car.243be38f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b3038422.js",
-    "static/js/2.e77b2570.chunk.js",
-    "static/css/main.0fc285c5.chunk.css",
-    "static/js/main.1163d6e1.chunk.js"
+    "static/js/2.63697ad7.chunk.js",
+    "static/css/main.08821d94.chunk.css",
+    "static/js/main.ff2d94f2.chunk.js"
   ]
 }
