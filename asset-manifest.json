@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/stellauto/static/css/main.08821d94.chunk.css",
-    "main.js": "/stellauto/static/js/main.ff2d94f2.chunk.js",
-    "main.js.map": "/stellauto/static/js/main.ff2d94f2.chunk.js.map",
+    "main.css": "/stellauto/static/css/main.d735d5f1.chunk.css",
+    "main.js": "/stellauto/static/js/main.61da01d1.chunk.js",
+    "main.js.map": "/stellauto/static/js/main.61da01d1.chunk.js.map",
     "runtime-main.js": "/stellauto/static/js/runtime-main.b3038422.js",
     "runtime-main.js.map": "/stellauto/static/js/runtime-main.b3038422.js.map",
-    "static/js/2.63697ad7.chunk.js": "/stellauto/static/js/2.63697ad7.chunk.js",
-    "static/js/2.63697ad7.chunk.js.map": "/stellauto/static/js/2.63697ad7.chunk.js.map",
+    "static/js/2.18bd2404.chunk.js": "/stellauto/static/js/2.18bd2404.chunk.js",
+    "static/js/2.18bd2404.chunk.js.map": "/stellauto/static/js/2.18bd2404.chunk.js.map",
     "index.html": "/stellauto/index.html",
-    "precache-manifest.51b3b49d86d0049858ce8edbc28b6329.js": "/stellauto/precache-manifest.51b3b49d86d0049858ce8edbc28b6329.js",
+    "precache-manifest.c511f8a93d633d61c0e9df21c261e587.js": "/stellauto/precache-manifest.c511f8a93d633d61c0e9df21c261e587.js",
     "service-worker.js": "/stellauto/service-worker.js",
-    "static/css/main.08821d94.chunk.css.map": "/stellauto/static/css/main.08821d94.chunk.css.map",
-    "static/js/2.63697ad7.chunk.js.LICENSE.txt": "/stellauto/static/js/2.63697ad7.chunk.js.LICENSE.txt",
+    "static/css/main.d735d5f1.chunk.css.map": "/stellauto/static/css/main.d735d5f1.chunk.css.map",
+    "static/js/2.18bd2404.chunk.js.LICENSE.txt": "/stellauto/static/js/2.18bd2404.chunk.js.LICENSE.txt",
+    "static/media/aircon.jpg": "/stellauto/static/media/aircon.eb1dd6ad.jpg",
     "static/media/car-doc.jpg": "/stellauto/static/media/car-doc.b640a2cd.jpg",
+    "static/media/diagnostics.jpg": "/stellauto/static/media/diagnostics.8c2acaba.jpg",
+    "static/media/electrical_mechanical.jpg": "/stellauto/static/media/electrical_mechanical.9893f353.jpg",
+    "static/media/engine_management.jpg": "/stellauto/static/media/engine_management.526c3f7b.jpg",
+    "static/media/fuel_injection.jpg": "/stellauto/static/media/fuel_injection.115f0606.jpg",
     "static/media/logo.svg": "/stellauto/static/media/logo.fa021cd5.svg",
+    "static/media/major_service.jpg": "/stellauto/static/media/major_service.d7433383.jpg",
     "static/media/scope-car.jpg": "/stellauto/static/media/scope-car.243be38f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b3038422.js",
-    "static/js/2.63697ad7.chunk.js",
-    "static/css/main.08821d94.chunk.css",
-    "static/js/main.ff2d94f2.chunk.js"
+    "static/js/2.18bd2404.chunk.js",
+    "static/css/main.d735d5f1.chunk.css",
+    "static/js/main.61da01d1.chunk.js"
   ]
 }

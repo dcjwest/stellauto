@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stellauto/precache-manifest.51b3b49d86d0049858ce8edbc28b6329.js"
+  "/stellauto/precache-manifest.c511f8a93d633d61c0e9df21c261e587.js"
 );
 
 self.addEventListener('message', (event) => {
