@@ -1,5 +1,5 @@
 import React from 'react';
-import landingImg from './images/scope-car.jpg';
+import landingImg from '../images/scope-car.jpg';
 
 const Home = () => {
     return (
@@ -7,7 +7,7 @@ const Home = () => {
             <img src={landingImg} alt='Car-shaped stethoscope.' />
             <div className='call-to-action'>
                 <h2>Need emergency car service?<br />We're here to help.</h2>
-                <a className='btn' href='#contact'>Enquire now</a>
+                <a className='btn' href='#quote'>Enquire now</a>
             </div>
         </section>
     );

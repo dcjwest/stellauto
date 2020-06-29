@@ -7,6 +7,7 @@
 :root {
   --main-color: #fd0000;
   --accent-color: #7E0000;
+  --box-shadow-light: 0 0 0.2rem rgba(0,0,0,0.3), 0.1rem 0.2rem 0.3rem rgba(0,0,0,0.3);
 }
 
 html, body {
@@ -17,7 +18,7 @@ html, body {
   width: 100%;
 }
 
-h1, h2, a { font-family: 'Raleway', sans-serif; }
+h1, h2, h3, a { font-family: 'Raleway', sans-serif; }
 
 a, a:visited {
   color: inherit;

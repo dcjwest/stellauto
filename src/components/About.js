@@ -1,5 +1,12 @@
 import React from 'react';
-import carDoc from './images/car-doc.jpg';
+import ServiceCard from './ServiceCard';
+import carDoc from '../images/car-doc.jpg';
+import elecMech from '../images/services/electrical_mechanical.jpg';
+import aircon from '../images/services/aircon.jpg';
+import fuelInject from '../images/services/fuel_injection.jpg';
+import engineManage from '../images/services/engine_management.jpg';
+import majorService from '../images/services/major_service.jpg';
+import diagnostic from '../images/services/diagnostics.jpg';
 
 const About = ({ underline }) => {
     return (
@@ -18,14 +25,22 @@ const About = ({ underline }) => {
                     <h2>Services</h2>
                     {underline}
                 </div>
-                <ul>
+                <div className='services-list'>
+                    <ServiceCard title='Auto Electrical & Mechanical' imgSrc={elecMech} />
+                    <ServiceCard title='Air Conditioning' imgSrc={aircon} />
+                    <ServiceCard title='Fuel Injection' imgSrc={fuelInject} />
+                    <ServiceCard title='Engine Management' imgSrc={engineManage} />
+                    <ServiceCard title='Major Services' imgSrc={majorService} />
+                    <ServiceCard title='Automotive Diagnostics' imgSrc={diagnostic} />
+                </div>
+                {/* <ul>
                     <li>Auto Electrical and Mechanical</li>
                     <li>Air-conditioning</li>
                     <li>Fuel Injection</li>
                     <li>Engine Management</li>
                     <li>Major Services</li>
                     <li>Automotive Diagnostics</li>
-                </ul>
+                </ul> */}
             </div>
         </section>
     );
