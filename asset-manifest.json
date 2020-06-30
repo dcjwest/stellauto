@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/stellauto/static/css/main.d735d5f1.chunk.css",
-    "main.js": "/stellauto/static/js/main.61da01d1.chunk.js",
-    "main.js.map": "/stellauto/static/js/main.61da01d1.chunk.js.map",
+    "main.css": "/stellauto/static/css/main.fa8ab4e7.chunk.css",
+    "main.js": "/stellauto/static/js/main.31db6099.chunk.js",
+    "main.js.map": "/stellauto/static/js/main.31db6099.chunk.js.map",
     "runtime-main.js": "/stellauto/static/js/runtime-main.b3038422.js",
     "runtime-main.js.map": "/stellauto/static/js/runtime-main.b3038422.js.map",
     "static/js/2.18bd2404.chunk.js": "/stellauto/static/js/2.18bd2404.chunk.js",
     "static/js/2.18bd2404.chunk.js.map": "/stellauto/static/js/2.18bd2404.chunk.js.map",
     "index.html": "/stellauto/index.html",
-    "precache-manifest.c511f8a93d633d61c0e9df21c261e587.js": "/stellauto/precache-manifest.c511f8a93d633d61c0e9df21c261e587.js",
+    "precache-manifest.bada7ccef858188b2bf62f56d5c313ce.js": "/stellauto/precache-manifest.bada7ccef858188b2bf62f56d5c313ce.js",
     "service-worker.js": "/stellauto/service-worker.js",
-    "static/css/main.d735d5f1.chunk.css.map": "/stellauto/static/css/main.d735d5f1.chunk.css.map",
+    "static/css/main.fa8ab4e7.chunk.css.map": "/stellauto/static/css/main.fa8ab4e7.chunk.css.map",
     "static/js/2.18bd2404.chunk.js.LICENSE.txt": "/stellauto/static/js/2.18bd2404.chunk.js.LICENSE.txt",
     "static/media/aircon.jpg": "/stellauto/static/media/aircon.eb1dd6ad.jpg",
     "static/media/car-doc.jpg": "/stellauto/static/media/car-doc.b640a2cd.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.b3038422.js",
     "static/js/2.18bd2404.chunk.js",
-    "static/css/main.d735d5f1.chunk.css",
-    "static/js/main.61da01d1.chunk.js"
+    "static/css/main.fa8ab4e7.chunk.css",
+    "static/js/main.31db6099.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fe43574f42fd5dcdbbe14168f0e4f1e",
+    "revision": "9a7b6cf8869138ec04424a53c77339f7",
     "url": "/stellauto/index.html"
   },
   {
-    "revision": "00ff448df679e18671d6",
-    "url": "/stellauto/static/css/main.d735d5f1.chunk.css"
+    "revision": "2aaa1386ca95975dfb37",
+    "url": "/stellauto/static/css/main.fa8ab4e7.chunk.css"
   },
   {
     "revision": "931dc5c4e188da4b443b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stellauto/static/js/2.18bd2404.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00ff448df679e18671d6",
-    "url": "/stellauto/static/js/main.61da01d1.chunk.js"
+    "revision": "2aaa1386ca95975dfb37",
+    "url": "/stellauto/static/js/main.31db6099.chunk.js"
   },
   {
     "revision": "de03ae327c2e96392cfb",
