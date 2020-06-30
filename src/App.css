@@ -34,7 +34,7 @@
   font-weight: 700;
 }
 
-.Navbar .logo-group { height: 90%; }
+.Navbar .logo-group { height: 75%; }
 
 .Navbar .logo-group .logo {
   max-height: 100%;
@@ -117,6 +117,8 @@
 }
 
 .menu-toggle button {
+  flex-direction: column;
+  justify-content: space-evenly;
   position: absolute;
   width: 40px;
   height: 32px;
@@ -128,9 +130,6 @@
   border-radius: 3px;
   height: 4px;
   width: 33px;
-  margin-bottom: 5px;
-  position: relative;
-  transform-origin: 4px 0;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -142,7 +141,7 @@
 .menu-toggle button.active .burger-slice {
   background-color: #090909;
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(3px, -6px);
 }
 
 .menu-toggle button.active .burger-slice:nth-child(2) {
@@ -151,7 +150,7 @@
 }
 
 .menu-toggle button.active .burger-slice:last-child {
-  transform: rotate(-45deg) translate(-2px, 1px);
+  transform: rotate(-45deg) translate(3px, 6px);
 }
 
 .menu-wrapper.container {
@@ -287,7 +286,7 @@ button.btn:hover { background-color: var(--accent-color); }
   text-align: center;
   width: 100%;
   max-width: 300px;
-  height: 220px;
+  height: 230px;
 }
 
 .service-card img { width: 100%; }
@@ -428,11 +427,19 @@ button.btn:hover { background-color: var(--accent-color); }
   width: 100%;
 }
 
+.contact-link {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
 .contact-icon {
-  display: inline-block;
   font-size: 1.5em;
   margin-right: 0.5em;
 }
+
+.contact-link:hover { opacity: 0.5;}
 
 footer {
   background-color: #090909;

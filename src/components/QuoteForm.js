@@ -4,6 +4,8 @@ import { useForm } from 'react-hook-form';
 
 export const QuoteForm = ({ underline }) => {
     const { register, handleSubmit } = useForm();
+
+    // To do: Process enquiry form data and handle email submission.
     function onSubmitForm(formData) {
         console.log(formData);
     }
@@ -53,7 +55,7 @@ export const QuoteForm = ({ underline }) => {
                 <div className='input-wrapper'>
                     <input 
                         name='mileage' 
-                        type='text' 
+                        type='number' 
                         required 
                         ref={register} />
                     <span className='input-title'>Current Mileage (km)</span>
@@ -80,7 +82,7 @@ export const QuoteForm = ({ underline }) => {
                         defaultValue=''
                         required
                         ref={register}>
-                            <option value='' disabled defaultValue>Select</option>
+                            <option value='' disabled defaultValue>Choose an option</option>
                             <option value='Minor Service'>Minor Service</option>
                             <option value='Major Service'>Major Service</option>
                             <option value='Mechanical Repair'>Mechanical Repair</option>

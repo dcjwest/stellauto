@@ -13,22 +13,28 @@ const Contact = ({ underline }) => {
                     <p>Please feel free to reach out if we can be of any help to you.</p>
                     <ul className='container'>
                         <li>
-                            <IconContext.Provider value={{className: 'contact-icon'}}>
-                                <MdLocalPhone />
-                            </IconContext.Provider>
-                            <span className='contact-field'>021 883 3661</span>
+                            <a className='contact-link' href='tel:0218833661'>
+                                <IconContext.Provider value={{className: 'contact-icon'}}>
+                                    <MdLocalPhone />
+                                </IconContext.Provider>
+                                <span>021 883 3661</span>
+                            </a>
                         </li>
                         <li>
-                            <IconContext.Provider value={{className: 'contact-icon'}}>
-                                <MdEmail />
-                            </IconContext.Provider>
-                            <span className='contact-field'>office@stellauto.co.za</span>
+                            <a className='contact-link' href='mailto:office@stellauto.co.za'>
+                                <IconContext.Provider value={{className: 'contact-icon'}}>
+                                    <MdEmail />
+                                </IconContext.Provider>
+                                <span>office@stellauto.co.za</span>
+                            </a>
                         </li>
                         <li>
-                            <IconContext.Provider value={{className: 'contact-icon'}}>
-                                <MdLocationOn />
-                            </IconContext.Provider>
-                            <span className='contact-field'>19 George Blake St, Plankenbrug</span>
+                            <a className='contact-link' href='https://maps.google.com/maps?ll=-33.929836,18.851723&amp;z=16&amp;t=m&amp;hl=en&amp;gl=ZA&amp;mapclient=embed&amp;cid=17531660066978041273' rel='noopener noreferrer'  target='_blank'>
+                                <IconContext.Provider value={{className: 'contact-icon'}}>
+                                    <MdLocationOn />
+                                </IconContext.Provider>
+                                <span>19 George Blake St, Plankenbrug</span>
+                            </a>
                         </li>
                     </ul>
                 </div>

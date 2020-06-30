@@ -9,7 +9,7 @@ const Menu = () => {
 
     return (
         <div className='menu-toggle'>
-            <button onClick={() => setMenuOpen(!menuOpen)} className={menuOpen? 'active':''}>
+            <button onClick={() => setMenuOpen(!menuOpen)} className={`container ${menuOpen? 'active':''}`}>
                 <div className='burger-slice'></div>
                 <div className='burger-slice'></div>
                 <div className='burger-slice'></div>
