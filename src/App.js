@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Services from './components/Services';
 import Contact from './components/Contact';
 import QuoteForm from './components/QuoteForm';
 import Footer from './components/Footer';
@@ -14,6 +15,7 @@ const App = () => {
       <Navbar heartBeatLine={heartBeatUnderline} />
       <Home underline={heartBeatUnderline} />
       <About underline={heartBeatUnderline} />
+      <Services underline={heartBeatUnderline} />
       <QuoteForm underline={heartBeatUnderline} />
       <Contact underline={heartBeatUnderline} />
       <Footer />

@@ -14,26 +14,33 @@ const Contact = ({ underline }) => {
                     <ul className='container'>
                         <li>
                             <a className='contact-link' href='tel:0218833661'>
-                                <IconContext.Provider value={{className: 'contact-icon'}}>
-                                    <MdLocalPhone />
-                                </IconContext.Provider>
-                                <span>021 883 3661</span>
+                                <div className='contact-icon-wrapper container'>
+                                    <IconContext.Provider value={{className: 'contact-icon'}}>
+                                        <MdLocalPhone />
+                                    </IconContext.Provider>
+                                </div>
+                                <div className='container'><span>021 883 3661</span></div>
                             </a>
                         </li>
                         <li>
                             <a className='contact-link' href='mailto:office@stellauto.co.za'>
-                                <IconContext.Provider value={{className: 'contact-icon'}}>
-                                    <MdEmail />
-                                </IconContext.Provider>
-                                <span>office@stellauto.co.za</span>
+                                <div className='contact-icon-wrapper container'>
+                                    <IconContext.Provider value={{className: 'contact-icon'}}>
+                                        <MdEmail />
+                                    </IconContext.Provider>
+                                    
+                                </div>
+                                <div className='container'><span>office@stellauto.co.za</span></div>
                             </a>
                         </li>
                         <li>
                             <a className='contact-link' href='https://maps.google.com/maps?ll=-33.929836,18.851723&amp;z=16&amp;t=m&amp;hl=en&amp;gl=ZA&amp;mapclient=embed&amp;cid=17531660066978041273' rel='noopener noreferrer'  target='_blank'>
-                                <IconContext.Provider value={{className: 'contact-icon'}}>
-                                    <MdLocationOn />
-                                </IconContext.Provider>
-                                <span>19 George Blake St, Plankenbrug</span>
+                                <div className='contact-icon-wrapper container'>
+                                    <IconContext.Provider value={{className: 'contact-icon'}}>
+                                        <MdLocationOn />
+                                    </IconContext.Provider>
+                                </div>
+                                <div className='container'><span>19 George Blake St, Plankenbrug</span></div>
                             </a>
                         </li>
                     </ul>

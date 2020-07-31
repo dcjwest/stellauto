@@ -203,7 +203,6 @@ button.btn:hover { background-color: var(--accent-color); }
 .title-wrapper {
   flex-direction: column;
   position: relative;
-  z-index: -1;
 }
 
 .title-wrapper h2 {
@@ -261,11 +260,12 @@ button.btn:hover { background-color: var(--accent-color); }
   max-width: 500px;
 }
 
-.services {
+#services {
   flex-direction: column;
   margin: 2em auto;
+  padding-left: 10%;
+  padding-right: 10%;
   position: relative;
-  width: 80%;
 }
 
 .services-list {
@@ -278,6 +278,7 @@ button.btn:hover { background-color: var(--accent-color); }
 }
 
 .service-card {
+  background-color: #fff;
   border-radius: 0.3rem;
   box-shadow: var(--box-shadow-light);
   flex-direction: column;
@@ -384,6 +385,7 @@ button.btn:hover { background-color: var(--accent-color); }
 .quote-form .btn {
   font-size: 1em;
   justify-self: center;
+  padding: 0.5em 1.5em;
 }
 
 #contact {
@@ -434,12 +436,21 @@ button.btn:hover { background-color: var(--accent-color); }
   transition: 0.3s;
 }
 
-.contact-icon {
-  font-size: 1.5em;
-  margin-right: 0.5em;
+.contact-icon-wrapper {
+  background-color: #090909;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-light);
+  margin-right: 1em;
+  width: 2.4em;
+  height: 2.4em;
 }
 
-.contact-link:hover { opacity: 0.5;}
+.contact-icon {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.contact-link:hover { opacity: 0.7;}
 
 footer {
   background-color: #090909;

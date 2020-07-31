@@ -12,7 +12,7 @@ const Navbar = ({ heartBeatLine }) => {
                 <img src={logo} className='logo' alt='Stellenbosch Auto Clinic logo'/>
                 <h1>Stellenbosch<br /><span>Auto</span> Clinic</h1>
             </div>
-            <Menu />
+            <Menu heartBeatUnderline={heartBeatLine}/>
             <ul className='navlinks container'>
                 <li>
                     <div className='navlink-wrapper container'>
@@ -23,6 +23,12 @@ const Navbar = ({ heartBeatLine }) => {
                 <li>
                     <div className='navlink-wrapper container'>
                         <a className='navlink' href='#about' onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave}>About</a>
+                        {heartBeatLine}
+                    </div>
+                </li>
+                <li>
+                    <div className='navlink-wrapper container'>
+                        <a className='navlink' href='#services' onMouseOver={handleMouseOver} onMouseLeave={handleMouseLeave}>Services</a>
                         {heartBeatLine}
                     </div>
                 </li>
