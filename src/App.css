@@ -220,11 +220,13 @@ button.btn:hover { background-color: var(--accent-color); }
 
 #home {
   color: #090909;
-  flex-direction: column;
+  flex-direction: column-reverse;
   height: 85vh;
   margin-bottom: 3em;
   padding-top: 0;
 }
+
+#home .img-container { margin: 0.5rem; }
 
 #home img {
   width: 100%;
@@ -249,7 +251,8 @@ button.btn:hover { background-color: var(--accent-color); }
 .more-info img {
   box-shadow: var(--box-shadow-light);
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
+  margin: 1.5em;
 }
 
 .more-info p {
@@ -311,7 +314,7 @@ button.btn:hover { background-color: var(--accent-color); }
   grid-template-columns: 1fr;
   gap: 1em;
   width: 100%;
-  max-width: 800px;
+  max-width: 475px;
 }
 
 .input-wrapper {
@@ -467,6 +470,11 @@ footer {
   width: 80%;
 }
 
+.supplier-logos a {
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+
 .supplier-logos img { max-width: 100%; }
 
 .footer-links { 
@@ -482,9 +490,26 @@ footer {
   transition: 0.3s ease-in-out;
 }
 
+.supplier-logos a:hover,
 .footer-links a:hover { opacity: 1; }
 
 .footer-links .company { font-size: 1em; }
+
+@media screen and (max-width: 991px) and (max-height: 575px) {
+  .menu-wrapper ul { height: 100%; }
+  
+  #home,
+  .more-info { flex-direction: row; }
+
+  .quote-form {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    padding: 1em 2em;
+    max-width: 800px;
+  }
+
+  .quote-form .btn { grid-column: 1/3; }
+}
 
 @media screen and (min-width: 375px) {
   .Navbar { padding: 0 1em; }
@@ -514,6 +539,7 @@ footer {
   .navlinks { display: flex; }
 
   #home,
+  .more-info,
   .contact-body { flex-direction: row; }
 
   .contact-body { max-width: 991px; }
@@ -527,6 +553,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5em;
     padding: 1em 2em;
+    max-width: 800px;
   }
 
   .quote-form .btn { grid-column: 1/3; }
@@ -542,10 +569,7 @@ footer {
 @media screen and (min-width: 992px) {
   .call-to-action h2 { font-size: 2.5em; }
 
-  .more-info {
-    flex-direction: row;
-    width: 80%;
-  }
+  .more-info { width: 80%; }
 
   .more-info img { margin-right: 2em; }
 
